@@ -1,0 +1,76 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    color: #333;
+  }
+  
+  header {
+    background: #4CAF50;
+    padding: 1rem;
+    color: white;
+  }
+  
+  nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h1, h2 {
+    margin: 0.5rem 0;
+  }
+  
+  #blog-list {
+    margin-top: 1rem;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+ /* Header styling */
+header {
+    display: flex;
+    justify-content: space-between; /* This will space out the header elements */
+    align-items: center; /* Vertically align the items */
+    padding: 10px;
+  }
+  
+  /* Align the heading to the center */
+  header h1 {
+    flex-grow: 1; /* This will make the heading take up remaining space and center it */
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+  }
+  
+  /* Navigation styling */
+  nav {
+    text-align: right;
+  }
+  
+  /* Style for individual links */
+  nav a {
+    margin: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333; /* Dark color */
+    padding: 5px 10px;
+  }
+  
+  /* Hover effect for links */
+  nav a:hover {
+    color: #fff; /* White color on hover */
+    background-color: #333; /* Dark background color on hover */
+    border-radius: 5px; /* Rounded corners */
+  }

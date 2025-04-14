@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Doggie Diaries - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 style="text-align: left; padding-left: 20px; font-size: 48px;">Doggie Diaries</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="post.html">Post</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 80vh; text-align: center;">
+    <h1>Login</h1>
+  
+    <form id="login-form" style="width: 90%; max-width: 400px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #f9f9f9;">
+      <label for="username" style="display: block; text-align: left; margin-bottom: 5px;">Username:</label>
+      <input type="text" id="username" name="username" required style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc;" />
+  
+      <label for="password" style="display: block; text-align: left; margin-bottom: 5px;">Password:</label>
+      <input type="password" id="password" name="password" required style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc;" />
+  
+      <button type="submit" style="width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Login</button>
+    </form>
+  
+    <p id="login-message" style="color: red; margin-top: 1rem;"></p>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
