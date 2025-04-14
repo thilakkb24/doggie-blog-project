@@ -1,6 +1,6 @@
 # Doggie Diaries Blog
 
-Welcome to **Doggie Diaries**, a simple blogging platform where dog lovers can share their experiences, thoughts, and stories about dogs! This platform was built as a college project by **Thilak K B** and **Sumanth N O**. It is designed to allow users to write blog posts, read others' posts, and get in touch with the creators.
+Welcome to **Doggie Diaries**, a simple blogging platform where dog lovers can share their experiences, thoughts, and stories about dogs! This platform was built as a college project by **Thilak K B**. It is designed to allow users to write blog posts, read others' posts, and get in touch with the creators.
 
 ## Features
 
