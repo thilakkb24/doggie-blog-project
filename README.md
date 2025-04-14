@@ -17,16 +17,7 @@ Welcome to **Doggie Diaries**, a simple blogging platform where dog lovers can s
 
 - **Backend (Future updates)**:
   - Java with Servlets or Spring Boot (planned)
- 
-# Doggie Diaries Blog
 
-Welcome to **Doggie Diaries**, a simple blogging platform where dog lovers can share their experiences, thoughts, and stories about dogs! This platform was built as a college project by **Thilak K B** and **Sumanth N O**.
-
-## Features
-
-- **Write and Post Blogs**: Users can create blog posts about their dog experiences and share them with others.
-- **View Recent Blog Posts**: Users can browse through the most recent blog posts from other users.
-- **Contact Us**: There's an easy way to get in touch with the creators of the project.
 
 ## How to Use
 
